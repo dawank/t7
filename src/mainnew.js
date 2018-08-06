@@ -30,7 +30,7 @@ class LINE extends LineAPI {
 
 
     get myBot() {
-        const bot = ['u65224f4e8812136f01b25275a54b5aef'];
+        const bot = ['ua33a5b61b096902826ad88ceec5cab56'];
         return bot; 
     }
 
