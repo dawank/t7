@@ -14,14 +14,14 @@ Thanks to DPK TEAM\n\
 | Change it to your authToken / your email & password
 */
 const auth = {
-	authToken: '',
+	authToken: 'EvT9gg6W7PUN0nUHQMk6.OZPByBcwKcGMRyJo7fYRvG.SCfBcxIupbNJBn9NuRwkJ/WnUD5MCUfD1ojCKP4uo2Y=',
 	certificate: '',
 	email: '',
 	password: ''
 }
 
-let client =  new LineConnect();
-//let client =  new LineConnect(auth);
+//let client =  new LineConnect();
+let client =  new LineConnect(auth);
 
 client.startx().then(async (res) => {
 	while(true) {
